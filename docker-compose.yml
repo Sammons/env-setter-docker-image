@@ -1,0 +1,7 @@
+setter:
+    image: sammons/setter
+    volumes:
+        - .:/data/storage
+    environment:
+        vars: vara=/data/storage/file.txt
+        vara: hello world
